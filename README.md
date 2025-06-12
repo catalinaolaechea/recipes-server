@@ -6,7 +6,7 @@
 - habilitar peticiones desde otros origenes [cors](https://www.npmjs.com/package/cors#usage)
 - hashear contraseñas via [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 - almacenamiento de variables de entorno via [ENV](https://www.npmjs.com/package/dotenv)
-- mealDB para inspiración [api externa](www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata)
+- consumo de api [mealDB](www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata)
   
 ## ✅ Endpoints disponibles
 
@@ -14,16 +14,18 @@
 | ------ | ----------------- | -------------------------- |
 | GET    | /auth/register    | registrar nuevo usario     |
 | GET    | /auth/login       | log in usuario             |
+| GET    | /external-recipes | Listar todos los productos |
+| GET    | /recipes          | Listar todos los productos |
+| GET    | /recipes/:id      | Obtener recetas por ID     |
 | POST   | /recipes          | Crear una nueva receta     |
 | PUT    | /recipes/:id      | Actualizar una receta      |
 | DELETE | /recipes/:id      | Eliminar una receta        |
-| GET    | /recipes/:id      | Obtener recetas por ID     |
-| GET    | /recipes          | Listar todos los productos |
-| GET    | /external-recipes | Listar todos los productos |
+
+
 
 ---
 
-##comandos:
+## comandos:
 comandos disponibles en `package.json`
 ```bash
   node --watch server.js #permite que se escuchen los cambios y se vuelva a correr automaticamente el servidor
