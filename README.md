@@ -6,6 +6,7 @@
 - habilitar peticiones desde otros origenes [cors](https://www.npmjs.com/package/cors#usage)
 - hashear contraseñas via [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 - almacenamiento de variables de entorno via [ENV](https://www.npmjs.com/package/dotenv)
+- conexión con la DB via [mysql2](https://www.npmjs.com/package/mysql2)
 - consumo de api [mealDB](www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata)
   
 ## ✅ Endpoints disponibles
@@ -33,4 +34,4 @@ comandos disponibles en `package.json`
 ```
 
 ## Objetivos 📖
-* Consumir una API externa, manejo de rutas, hasheo, nodejs
+* aprender a consumir una API externa, conectarse con una DB, manejar rutas, hasheos, node.js , pool de conexiones, tokens y mentener seguridad.
